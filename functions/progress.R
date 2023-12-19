@@ -4,13 +4,9 @@ progress_perc <- function(num_done, total){
 
 # Example 
 
-for (i in 1:1000) {
+# for (i in 1:1000) {
 
-    Sys.sleep(0.01)
+#     Sys.sleep(0.01)
 
-    progress_perc(num_done = i, total = 1000)
-}
-
-
-# https://stackoverflow.com/questions/26919787/r-text-progress-bar-in-for-loop
-# https://stackoverflow.com/questions/21042257/printing-repetetively-on-the-same-line-in-r
+#     progress_perc(num_done = i, total = 1000)
+# }
